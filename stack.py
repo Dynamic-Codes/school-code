@@ -24,7 +24,7 @@ class stack:
 
     def peek(self):
         if not self.is_empty():
-            print(f'[~] Value recieved {self.stack[-1]}')
+            print(f'[~] Value received {self.stack[-1]}')
 
     def pop(self):
         if not self.is_empty():
